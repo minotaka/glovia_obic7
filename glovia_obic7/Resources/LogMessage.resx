@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CONFIG_NOT_EXIST_BACKUPPATH" xml:space="preserve">
+    <value>バックアップ先が存在していません。</value>
+  </data>
+  <data name="CONFIG_NOT_EXIST_OUTPUTPATH" xml:space="preserve">
+    <value>ファイル出力先が存在していません。</value>
+  </data>
+  <data name="CONFIG_NO_OUTPUTPATH" xml:space="preserve">
+    <value>ファイル出力先情報が見つかりません。</value>
+  </data>
+  <data name="CONFIG_NO_SEARCHPATH" xml:space="preserve">
+    <value>ファイル検索先情報が見つかりません。</value>
+  </data>
+  <data name="CONFIG_SHOW_SEARCHPATH" xml:space="preserve">
+    <value>Gloviaデータ基本パス={0}</value>
+  </data>
+  <data name="CONVERT_END" xml:space="preserve">
+    <value>データ変換処理を終了します。</value>
+  </data>
+  <data name="CONVERT_FATAL_ERROR" xml:space="preserve">
+    <value>重大エラーが発生したため処理を中断します。</value>
+  </data>
+  <data name="CONVERT_MODE_UNKNOWN" xml:space="preserve">
+    <value>変換パターン不明のため、{0}の処理をスキップします。</value>
+  </data>
+  <data name="CONVERT_START" xml:space="preserve">
+    <value>データ変換処理を開始します。</value>
+  </data>
+  <data name="CONVERT_STOP" xml:space="preserve">
+    <value>データ変換処理を中止します。</value>
+  </data>
+  <data name="FILE_CONVERSION_END" xml:space="preserve">
+    <value>ファイル変換の終了</value>
+  </data>
+  <data name="FILE_CONVERSION_NO_PROCESS" xml:space="preserve">
+    <value>変換対象のプロセスが存在しません。</value>
+  </data>
+  <data name="FILE_CONVERSION_SAVE_SKIP" xml:space="preserve">
+    <value>エラーが発生しているためファイル出力を行いません。</value>
+  </data>
+  <data name="FILE_CONVERSION_START" xml:space="preserve">
+    <value>ファイル変換の開始　対象ファイル={0}</value>
+  </data>
+  <data name="FILE_COPY_ABORT" xml:space="preserve">
+    <value>出力フォルダに展開中にエラーが発生しました。</value>
+  </data>
+  <data name="FILE_COPY_END" xml:space="preserve">
+    <value>作成したファイルを出力フォルダに展開しました。</value>
+  </data>
+  <data name="FILE_COPY_START" xml:space="preserve">
+    <value>作成したファイルを出力フォルダに展開します。</value>
+  </data>
+  <data name="MODE_CONVERT_END" xml:space="preserve">
+    <value>変換処理[{0}] 対象ファイル={1} の処理を終了します。</value>
+  </data>
+  <data name="MODE_CONVERT_EXCEPTION" xml:space="preserve">
+    <value>処理中に不正なエラーが発生しました。</value>
+  </data>
+  <data name="MODE_CONVERT_SKIP" xml:space="preserve">
+    <value>{0}の処理をスキップします。</value>
+  </data>
+  <data name="MODE_CONVERT_START" xml:space="preserve">
+    <value>変換処理[{0}]の処理対象のため、{1}の処理を開始します。</value>
+  </data>
+  <data name="MODE_SOURCEFILE_ENPTY" xml:space="preserve">
+    <value>GLOVIAデータファイルが空です。</value>
+  </data>
+  <data name="MODE_SOURCEFILE_UNREAD" xml:space="preserve">
+    <value>GLOVIAデータファイルが正常に読み込めませんでした。</value>
+  </data>
+  <data name="MODE_UNKNOWN_COMPANY_CODE" xml:space="preserve">
+    <value>会社コード[{0}]は不明な会社コードです。</value>
+  </data>
+  <data name="MODE_WRITE_EMPTY" xml:space="preserve">
+    <value>変換後の出力データが存在しないため、ファイル[{0}]の出力を行いません。</value>
+  </data>
+  <data name="MODE_WRITE_EXCEPTION" xml:space="preserve">
+    <value>ファイル出力中に不正なエラーが発生しました。</value>
+  </data>
+  <data name="MODE_WRITE_SUCCESS" xml:space="preserve">
+    <value>変換後のファイルを[{0}]に出力しました。</value>
+  </data>
+  <data name="NO_TARGET_FILES" xml:space="preserve">
+    <value>処理対象のファイルがありません。</value>
+  </data>
+  <data name="PROGRAM_END" xml:space="preserve">
+    <value>プログラム終了</value>
+  </data>
+  <data name="PROGRAM_START" xml:space="preserve">
+    <value>プログラム起動</value>
+  </data>
+  <data name="SHOW_CONVERT_MODE" xml:space="preserve">
+    <value>変換モード={0}</value>
+  </data>
+  <data name="SHOW_TARGET_FILE_COUNT" xml:space="preserve">
+    <value>対象ファイル数={0}</value>
+  </data>
+  <data name="SYS_CLEAR_EXCEPTION" xml:space="preserve">
+    <value>出力先準備中に例外エラーが発生しました。</value>
+  </data>
+  <data name="SYS_CONFIG_ERROR_VALUE" xml:space="preserve">
+    <value>アプリケーション構成ファイルの[{0}]のデータが正しくありません。値={1}</value>
+  </data>
+  <data name="SYS_CONFIG_EXCEPTION" xml:space="preserve">
+    <value>環境情報取得中に例外エラーが発生しました。</value>
+  </data>
+  <data name="SYS_CONFIG_SYS_NO_GET" xml:space="preserve">
+    <value>アプリケーション構成ファイルに [{0}] が見つかりません。</value>
+  </data>
+  <data name="SYS_CONVERSION_EXCEPTION" xml:space="preserve">
+    <value>変換処理中に例外エラーが発生しました。</value>
+  </data>
+  <data name="SYS_CONVERSION_START" xml:space="preserve">
+    <value>変換処理メソッドの開始</value>
+  </data>
+  <data name="SYS_MODE_CONVERSION_EXCEPTION" xml:space="preserve">
+    <value>変換処理[{0}]の処理中に例外エラーが発生しました。</value>
+  </data>
+  <data name="SYS_MODE_WRITE_EXCEPTION" xml:space="preserve">
+    <value>モード[{0}]のファイル出力中に例外エラーが発生しました。</value>
+  </data>
+  <data name="SYS_SQL_CONNECT" xml:space="preserve">
+    <value>ローカルＤＢに接続しました。</value>
+  </data>
+  <data name="SYS_SQL_DISCONNECT" xml:space="preserve">
+    <value>ローカルＤＢから切断しました。</value>
+  </data>
+</root>
